@@ -11,6 +11,9 @@ function Navbar() {
       <NavLink>
         <p> Projects</p>
       </NavLink>
+      <NavLink className='text-white'>
+        <p> Profile</p>
+      </NavLink>
     </nav>
   )
 }
