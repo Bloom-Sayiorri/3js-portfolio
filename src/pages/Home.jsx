@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../components/Navbar';
 
 function Home() {
   return (
-    <div className='text-green-500'>Home</div>
+    <main className=''>
+      <Navbar />
+      Home
+    </main>
   )
 }
 
