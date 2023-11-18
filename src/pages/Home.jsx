@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../components/Navbar';
 
 function Home() {
   return (
-    <main className=''>
-      <Navbar />
-      Home
-    </main>
+    <section className='w-full h-screen relative'>
+      <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
+        POPUP
+      </div>
+    </section>
   )
 }
 
