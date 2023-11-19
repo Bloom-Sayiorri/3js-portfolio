@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import { useGLTF } from '@react-three/drei';
 
+// import islandScene from '../assets/3d/island.glb';
+
 const Island = (props) => {
     const { nodes, materials } = useGLTF();('/island.glb');
 
