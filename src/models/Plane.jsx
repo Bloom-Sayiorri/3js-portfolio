@@ -7,8 +7,8 @@ import { useGLTF } from '@react-three/drei';
 const Plane = () => {
     const { scene, animations } = useGLTF(birdscene);
   return (
-    <mesh>
-
+    <mesh position={[]}>
+      <primitive object={scene}/>
     </mesh>
   )
 }
